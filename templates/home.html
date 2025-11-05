@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<form method="post" action="/">
+		{{form}}
+		<input type = "submit"/>
+		</form>
+		{% for i in list %}
+			{{i.name}} - {{i.color_id}} <br/>
+		{% endfor %}
+	</body>
+</html>
